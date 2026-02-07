@@ -70,7 +70,7 @@ Before running the project, install:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/azizbekadilov-devops-agro-app.git
+git clone https://github.com/azizbekadilov-devops-agro-app.git
 cd azizbekadilov-devops-agro-app
 ````
 
@@ -208,7 +208,7 @@ In Grafana:
 ## 👨‍💻 Author
 
 **Your Name**
-GitHub: [https://github.com/YOUR_USERNAME](https://github.com/azizbekadilov)
+GitHub: [https://github.com/azizbekadilov](https://github.com/azizbekadilov)
 
 ## Some screenshotes from Grafana dashboards
 
