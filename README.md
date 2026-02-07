@@ -122,7 +122,7 @@ Then in ArgoCD UI:
 
 ### ✅ Expected ArgoCD View
 
-> <img width="1280" height="743" alt="image" src="https://github.com/user-attachments/assets/be452da1-f6d0-4d93-8392-8f7f8e0db362" />
+> <img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/eb685f6e-5d26-40b5-a186-8dd6f16a8f5a" />
 
 > <img width="1280" height="797" alt="image" src="https://github.com/user-attachments/assets/fabb96a8-cd35-4bc1-be15-0d7e467c77fa" />
 
