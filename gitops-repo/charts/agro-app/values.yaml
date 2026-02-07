@@ -1,0 +1,28 @@
+replicaCount: 3
+
+image:
+  repository: abuseven/agro-app
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 5000
+  name: web
+
+metrics:
+  enabled: true
+  path: /metrics
+
+serviceAccount:
+  create: true
+  name: ""
+
+probes:
+  readinessPath: /health
+  livenessPath: /health
+
+serviceAccount:
+  create: true
+  name: ""

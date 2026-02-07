@@ -1,0 +1,17 @@
+spec:
+  source:
+    repoURL: https://github.com/USERNAME/REPO.git
+    targetRevision: main
+    path: gitops-repo/charts/agro-app
+    helm:
+      valueFiles:
+        - values.yaml
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: agro-app
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
